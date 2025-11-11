@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Vision360",
+    "description": "Centralise les données de production.",
+    "manager": "Marie Dupont",
+    "tech": "Power BI, Azure"
+  },
+  {
+    "name": "DataLens",
+    "description": "Plateforme de visualisation en temps réel.",
+    "manager": "Alexandre Morel",
+    "tech": "Python, Tableau"
+  },
+  {
+    "name": "QualityCheck",
+    "description": "Automatise le contrôle qualité via IA.",
+    "manager": "Sophie Martin",
+    "tech": "Watsonx, Node.js"
+  }
+]
