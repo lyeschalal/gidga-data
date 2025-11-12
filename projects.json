@@ -3,18 +3,18 @@
     "name": "Vision360",
     "description": "Centralise les données de production.",
     "manager": "Marie Dupont",
-    "tech": "Power BI, Azure"
+    "tech": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zonebourse.com%2Fcours%2Faction%2FESSILORLUXOTTICA-4641%2Factualite%2FEssilorLuxottica-luxe-technologie-sante-le-meilleur-des-trois-mondes--37223045%2F&psig=AOvVaw2wycp1YSKYb3Y41frxmhb5&ust=1763000093817000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiQ36fF65ADFQAAAAAdAAAAABAE"
   },
   {
     "name": "DataLens",
     "description": "Plateforme de visualisation en temps réel.",
     "manager": "Alexandre Morel",
-    "tech": "Python, Tableau"
+    "tech": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zonebourse.com%2Fcours%2Faction%2FESSILORLUXOTTICA-4641%2Factualite%2FEssilorLuxottica-luxe-technologie-sante-le-meilleur-des-trois-mondes--37223045%2F&psig=AOvVaw2wycp1YSKYb3Y41frxmhb5&ust=1763000093817000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiQ36fF65ADFQAAAAAdAAAAABAE"
   },
   {
     "name": "QualityCheck",
     "description": "Automatise le contrôle qualité via IA.",
     "manager": "Sophie Martin",
-    "tech": "Watsonx, Node.js"
+    "tech": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zonebourse.com%2Fcours%2Faction%2FESSILORLUXOTTICA-4641%2Factualite%2FEssilorLuxottica-luxe-technologie-sante-le-meilleur-des-trois-mondes--37223045%2F&psig=AOvVaw2wycp1YSKYb3Y41frxmhb5&ust=1763000093817000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiQ36fF65ADFQAAAAAdAAAAABAE"
   }
 ]
