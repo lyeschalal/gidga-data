@@ -4,6 +4,9 @@ on:
   repository_dispatch:
     types: [create_ticket]
 
+permissions:
+  contents: write
+
 jobs:
   add-ticket:
     runs-on: ubuntu-latest
