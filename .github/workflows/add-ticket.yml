@@ -1,0 +1,62 @@
+name: Add Ticket
+
+on:
+  repository_dispatch:
+    types: [create_ticket]
+
+jobs:
+  add-ticket:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Read existing tickets
+        id: read_tickets
+        run: |
+          if [ -f tickets.json ]; then
+            cat tickets.json
+          else
+            echo '{"tickets":[]}' > tickets.json
+          fi
+          
+      - name: Add new ticket
+        run: |
+          # Récupérer les données du ticket
+          SUBJECT="${{ github.event.client_payload.subject }}"
+          DESCRIPTION="${{ github.event.client_payload.description }}"
+          USERNAME="${{ github.event.client_payload.userName }}"
+          USEREMAIL="${{ github.event.client_payload.userEmail }}"
+          PRIORITY="${{ github.event.client_payload.priority }}"
+          
+          # Générer un ID unique
+          TICKET_ID="TICKET-$(date +%s)"
+          CREATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          
+          # Créer le nouveau ticket en JSON
+          NEW_TICKET=$(cat <<EOF
+          {
+            "id": "$TICKET_ID",
+            "subject": "$SUBJECT",
+            "description": "$DESCRIPTION",
+            "status": "ouvert",
+            "priority": "$PRIORITY",
+            "userName": "$USERNAME",
+            "userEmail": "$USEREMAIL",
+            "createdAt": "$CREATED_AT"
+          }
+          EOF
+          )
+          
+          # Ajouter le ticket au fichier JSON
+          jq --argjson ticket "$NEW_TICKET" '.tickets += [$ticket]' tickets.json > tickets_tmp.json
+          mv tickets_tmp.json tickets.json
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tickets.json
+          git commit -m "Nouveau ticket créé automatiquement"
+          git push
