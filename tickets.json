@@ -69,6 +69,16 @@
       "userName": "xxxxxxxx@essilorluxottica.com",
       "userEmail": "xxxxxxxx@essilorluxottica.com",
       "createdAt": "2025-11-18T22:27:23Z"
+    },
+    {
+      "id": "TICKET-1763504931",
+      "subject": "ajout au groupe ",
+      "description": "ajout au groupe ",
+      "status": "ouvert",
+      "priority": "1",
+      "userName": "xxxxxxxx@essilorluxottica.com",
+      "userEmail": "xxxxxxxx@essilorluxottica.com",
+      "createdAt": "2025-11-18T22:28:51Z"
     }
   ]
 }
