@@ -9,6 +9,16 @@
       "userName": "xxxxxxxx@essilorluxottica.com",
       "userEmail": "xxxxxxxx@essilorluxottica.com",
       "createdAt": "2025-11-23T20:09:12Z"
+    },
+    {
+      "id": "TICKET-1763928595",
+      "subject": "Databricks Accès  ",
+      "description": "Databricks Accès  ",
+      "status": "ouvert",
+      "priority": "1",
+      "userName": "xxxxxxxx@essilorluxottica.com",
+      "userEmail": "xxxxxxxx@essilorluxottica.com",
+      "createdAt": "2025-11-23T20:09:55Z"
     }
   ]
 }
