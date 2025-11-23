@@ -89,6 +89,16 @@
       "userName": "xxxxxxxx@essilorluxottica.com",
       "userEmail": "xxxxxxxx@essilorluxottica.com",
       "createdAt": "2025-11-23T20:21:04Z"
+    },
+    {
+      "id": "TICKET-1763929346",
+      "subject": "Problème d'accès au compte EssilorLuxottica",
+      "description": "Problème d'accès au compte EssilorLuxottica",
+      "status": "ouvert",
+      "priority": "1",
+      "userName": "ccxxxxxxxx@essilorluxottica.com",
+      "userEmail": "ccxxxxxxxx@essilorluxottica.com",
+      "createdAt": "2025-11-23T20:22:26Z"
     }
   ]
 }
