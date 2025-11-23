@@ -1,20 +1,20 @@
 [
   {
-    "name": "Vision360",
-    "description": "Centralise les données de production.",
-    "manager": "Marie Dupont",
+    "name": "Global Stock Analytics",
+    "description": "Projet visant à construire une plateforme unifiée d’analyse des stocks de verres à l’échelle mondiale. Il consolide les données de plusieurs sources (ASCP, fichiers partenaires, référentiels internes) dans une architecture Lakehouse Databricks, standardisée en Bronze/Silver/Gold. Le projet permet de suivre les niveaux de stock, les seuils de sécurité, la consommation hebdomadaire, et propose un reporting consolidé dans SAP BusinessObjects.",
+    "manager": "Nadhem Marsit",
+    "tech": "https://i.ibb.co/fVdPDGWq/Image3.png"
+  },
+  {
+    "name": "Azure Data Platform Migration",
+    "description": "Programme global de migration des plateformes BI historiques (Netezza, Qlik, Legacy DW) vers une architecture standardisée basée sur Azure Databricks. Les objectifs incluent la centralisation des données, la standardisation des modèles, la création d’une Data Normalization Layer, la fermeture des anciens systèmes et l’exposition des données pour les usages BI et ML.",
+    "manager": "Thomas Delon",
     "tech": "https://img.zonebourse.com/stock/essilor1%20etienne.png"
   },
   {
-    "name": "DataLens",
-    "description": "Plateforme de visualisation en temps réel.",
-    "manager": "Alexandre Morel",
-    "tech": "https://img.zonebourse.com/stock/essilor1%20etienne.png"
-  },
-  {
-    "name": "QualityCheck",
-    "description": "Automatise le contrôle qualité via IA.",
-    "manager": "Sophie Martin",
+    "name": "Manufacturing Analytics",
+    "description": "Projet analytique regroupant les données de production provenant des laboratoires et usines (via Rx.Net, Optifacts, MES). Il permet le suivi qualité, la performance des équipements, le pilotage des opérations industrielles et la mise en place de dashboards globalisés pour les équipes Manufacturing. Les données sont intégrées, normalisées et exposées via Databricks et SAP BO.",
+    "manager": "Thomas Delon",
     "tech": "https://img.zonebourse.com/stock/essilor1%20etienne.png"
   }
 ]
