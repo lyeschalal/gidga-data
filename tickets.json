@@ -359,6 +359,16 @@
       "userName": "xxxxxxxx@essilorluxottica.com",
       "userEmail": "xxxxxxxx@essilorluxottica.com",
       "createdAt": "2025-11-23T03:19:38Z"
+    },
+    {
+      "id": "TICKET-1763868061",
+      "subject": "ajout au groupe",
+      "description": "Databricks Accès  ",
+      "status": "ouvert",
+      "priority": "1",
+      "userName": "xxxxxxxx@essilorluxottica.com",
+      "userEmail": "xxxxxxxx@essilorluxottica.com",
+      "createdAt": "2025-11-23T03:21:01Z"
     }
   ]
 }
