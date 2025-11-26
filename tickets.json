@@ -9,6 +9,16 @@
       "userName": "chalall@essilorluxottica.com",
       "userEmail": "chalall@essilorluxottica.com",
       "createdAt": "2025-11-23T21:53:51Z"
+    },
+    {
+      "id": "TICKET-1764176586",
+      "subject": "ajout au groupe",
+      "description": "",
+      "status": "ouvert",
+      "priority": "1",
+      "userName": "fredfadda@essilorluxottica.com",
+      "userEmail": "fredfadda@essilorluxottica.com",
+      "createdAt": "2025-11-26T17:03:06Z"
     }
   ]
 }
